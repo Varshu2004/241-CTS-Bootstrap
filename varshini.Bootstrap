@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap 5 Exercises Combined</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="container my-5">
+
+    <!-- 1. Basic Header -->
+    <h1 class="text-primary mb-4">Hello, Bootstrap 5!</h1>
+
+    <!-- 3. Responsive Grid Layout -->
+    <h2>Responsive 3-Column Layout</h2>
+    <div class="row mb-4">
+      <div class="col-12 col-sm-6 col-md-4 bg-primary text-white p-3">Column 1</div>
+      <div class="col-12 col-sm-6 col-md-4 bg-secondary text-white p-3">Column 2</div>
+      <div class="col-12 col-sm-6 col-md-4 bg-success text-white p-3">Column 3</div>
+    </div>
+
+    <!-- 4. Two-Column Layout -->
+    <h2>Two Column Layout (Sidebar + Content)</h2>
+    <div class="row mb-4">
+      <aside class="col-md-3 bg-light p-3">Sidebar content here</aside>
+      <main class="col-md-9 p-3 border">Main content area</main>
+    </div>
+
+    <!-- 7. Typography -->
+    <h2>Typography Utilities</h2>
+    <h1 class="display-1">Display 1 Heading</h1>
+    <p class="lead">This is a lead paragraph, styled larger and lighter.</p>
+    <p class="text-muted">This text is muted (gray).</p>
+    <p class="fw-bold">This text is bold.</p>
+    <p class="text-uppercase">This text is uppercase.</p>
+    <p class="text-lowercase">THIS TEXT IS LOWERCASE.</p>
+    <p class="text-capitalize">this text is capitalized.</p>
+
+    <!-- 8. Forms -->
+    <h2>Registration Form</h2>
+    <form class="mb-5">
+      <div class="mb-3">
+        <label for="inputName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Your Name" required />
+      </div>
+      <div class="mb-3">
+        <label for="inputEmail" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required />
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="checkTerms" />
+        <label class="form-check-label" for="checkTerms">Agree to terms</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+
+    <!-- 9. Buttons -->
+    <h2>Buttons with Contextual Classes</h2>
+    <button class="btn btn-primary me-2 mb-2">Primary</button>
+    <button class="btn btn-secondary me-2 mb-2">Secondary</button>
+    <button class="btn btn-success me-2 mb-2">Success</button>
+    <button class="btn btn-danger me-2 mb-2">Danger</button>
+    <button class="btn btn-warning me-2 mb-2">Warning</button>
+    <button class="btn btn-info me-2 mb-2">Info</button>
+    <button class="btn btn-light me-2 mb-2">Light</button>
+    <button class="btn btn-dark me-2 mb-2">Dark</button>
+
+  </div>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
